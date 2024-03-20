@@ -1,0 +1,54 @@
+@import url('style.css');
+
+/*botão e "meios de contato:"*/
+body > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > header > h1 {
+    margin-right: 40rem;
+    font-size: 4.1rem;
+    text-align: center;
+}
+
+body > header > button {
+    border: none;
+    font-size: 4rem;
+    margin: 4rem;
+    cursor: pointer;
+}
+
+/*informações da tela*/
+body > div.email {
+    display: flex;
+    justify-content: center;
+    margin: 0.2rem;
+    margin-top: 4.5rem;
+}
+
+body > div.telefone {
+    display: flex;
+    justify-content: center;
+    margin: 0.2rem;
+}
+
+body > div.arrobas {
+    display: flex;
+    justify-content: center;
+    margin: 0.2rem;
+}
+
+body > div {
+    font-size: 1.5rem;
+}
+
+/*Logo na parte inferior*/
+body > article > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    padding: 4.5rem 10rem;
+}

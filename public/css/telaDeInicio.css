@@ -1,0 +1,91 @@
+@import url("style.css");
+
+/*Nome da loja*/
+body > header {
+  display: flex;
+  justify-content: center;
+}
+
+/*campo de pesquisa*/
+body > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 50rem;
+  align-items: center;
+  margin-top: 2rem;
+  margin: 1rem;
+}
+
+body > div > form {
+  border: 1px solid white;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+}
+
+body > div > form input,
+form button {
+  font-size: 1rem;
+  border-radius: 2rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+body > div > form button {
+  cursor: pointer;
+  background: none;
+}
+
+body > div > button {
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+/*camisa do barça*/
+body > main > div.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+body > main > div > section.card {
+  width: 40%;
+  height: 20%;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  display: flex;
+}
+
+body > main > div > section > a > img {
+  background-color: white;
+}
+
+body > main > div > section > a {
+  background-color: white;
+}
+
+body > main > div > section > article {
+  background-color: white;
+}
+
+body > main > div > section > article > div {
+  background-color: white;
+}
+
+body > main > div > section > article > a > h2 {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+body > main > div > section > article > div > p {
+  background-color: white;
+  color: black;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+body > main > div > section > article > div > p.preço {
+  font-size: 5rem;
+}

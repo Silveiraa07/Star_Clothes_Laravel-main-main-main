@@ -1,0 +1,77 @@
+@import url("style.css");
+
+body > header {
+  display: flex;
+  justify-content: center;
+  font-size: 2.2rem;
+}
+
+body > div > form > section > div.input {
+  margin-left: 2rem;
+}
+
+body > div > form > section.pt1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  align-items: center;
+}
+
+body > div > form > section > h2 {
+  margin: 1rem;
+}
+
+body > div > form > section.pt2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  align-items: center;
+}
+
+body > div > form > section > h3 {
+  margin: 1rem;
+}
+
+body > div > form > section.pt3 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  align-items: center;
+}
+
+body > div > form > section > h4 {
+  margin: 1rem;
+}
+
+body > div > form > section.pt4 {
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+  align-items: center;
+}
+
+body > div > form > section > h5 {
+  margin: 1rem;
+}
+
+body > article {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+body > article > button {
+  font-size: 3rem;
+  text-align: center;
+}
+
+body > article > button > a > p {
+  background-color: white;
+  color: black;
+}

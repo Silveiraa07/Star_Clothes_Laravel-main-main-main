@@ -1,0 +1,43 @@
+@import url("style.css");
+
+body > header > h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 4.1rem;
+  margin-top: 15rem;
+}
+
+body > div > p.superior {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+body > div > p.inferior {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+body > article {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+body > article > button {
+  font-size: 3rem;
+  text-align: center;
+}
+
+body > article > button > a > p {
+  background-color: white;
+  color: black;
+}

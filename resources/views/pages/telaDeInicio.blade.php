@@ -16,7 +16,7 @@
             <input type="text" name="search" id="search" placeholder="Buscar..." required>
             <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
-        <button type="submit"><a href="../pages/contatos.html"><i class="fa-solid fa-phone"></i></a></button>
+        <button type="submit"><a href="/contatos"><i class="fa-solid fa-phone"></i></a></button>
     </div>
     <main>
         <div class="container">
@@ -26,7 +26,7 @@
                 </a>
                 <article>
                     <a href="#">
-                        <a href=""><h2>Camisa do Barcelona</h2></a>
+                        <a href="/produto1"><h2>Camisa do Barcelona</h2></a>
                     </a>
                     <div>
                         <p>Nota: 5</p>
@@ -40,7 +40,7 @@
                 </a>
                 <article>
                     <a href="#">
-                        <a href="../pages/produtobone.html"><h2>Bonés</h2></a>
+                        <a href="/produto2"><h2>Bonés</h2></a>
                     </a>
                     <div>
                         <p>Nota: 5</p>

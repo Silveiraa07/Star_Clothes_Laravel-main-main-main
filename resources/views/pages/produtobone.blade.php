@@ -10,7 +10,7 @@
 <body>
     <header>
         <button>
-            <a href="../pages/telaDeInicio.html"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+            <a href="inicio"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
         </button>
     </header>
     <main>

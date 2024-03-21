@@ -12,7 +12,7 @@ class UserController extends Controller
     public function index()
     {
        $users = User::all();
-       return view("telaDeInicio", compact("users"));
+       return view("pages.telaDeListagem", compact("users"));
     }
 
     public function create()
@@ -23,29 +23,29 @@ class UserController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'email' => 'required|email|unique:user,email',
-            'cpf' => 'required|cpf|unique:user,cpf',
+            'email' => 'required|email|unique:users,email',
+            'cpf' => 'required|unique:users',
         ]);
 
         if ($validator->fails()) {
-            return redirect('post/create')
+            return redirect()->route('create')
                 ->withErrors($validator)
                 ->withInput();
         }
-        // Cadastrar no banco
+        User::create($request->all());
         Auth::attempt($request->only('email','password'));
+        return redirect()->route('create');
     }
 
     public function show(int $id)
     {
         $id = user::findOrFail($id);
-
-        return view('telaDeInicio',['id' => $id]);
+        return view('pages.telaDeInicio',['id' => $id]);
     }
 
     public function edit(int $id)
     {
-        $users -> User::findOrFail($id);
+        $users = User::findOrFail($id);
         return view('telaDeInicio', compact('user'));
     }
 
@@ -60,7 +60,7 @@ class UserController extends Controller
 
                 ->withErrors($validator)
                 ->withInput();
-        } 
+        }
 
         $user = User::findOrFail($id);
         $user->name = $request->name;

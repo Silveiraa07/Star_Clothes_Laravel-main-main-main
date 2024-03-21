@@ -11,12 +11,12 @@
         <h1>Peencha os campos abaixo:</h1>
     </header>
     <div id="form">
-        <form action="">
-            
+        <form action="{{route('store')}}" method="POST">
+            @csrf
             <section class="pt1">
-                <h2 for="username">Nome:</h2>
+                <h2 for="name">Nome:</h2>
             <div class="input">
-                <input id="username" name="username" placeholder="..." type="text">
+                <input id="name" name="name" placeholder="..." type="text">
             </div>
             </section>
 
@@ -40,13 +40,10 @@
                 <input id="password" name="password" placeholder="..." type="password">
             </div>
             </section>
-
+            <button class="card" type="submit">
+                Registrar-se
+            </button>
         </form>
     </div>
-    <article>
-        <button class="card">
-            <a href="../pages/telaDeInicio.html"><p>Registrar-se</p></a>
-        </button>
-    </article>
 </body>
 </html>

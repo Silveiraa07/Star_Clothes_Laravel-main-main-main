@@ -1,0 +1,6 @@
+@import url('style.css');
+
+body > header {
+    display: flex;
+    justify-content: center;
+}

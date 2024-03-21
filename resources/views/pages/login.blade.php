@@ -38,7 +38,7 @@
     </div>
     <article>
         <button class="card">
-            <a href="../pages/telaDeErro.html"><p>Entrar agora</p></a>
+            <a href="/erro"><p>Entrar agora</p></a>
         </button>
     </article>
 </body>

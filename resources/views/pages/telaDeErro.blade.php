@@ -16,7 +16,7 @@
     </div>
     <article>
         <button class="card">
-            <a href="../pages/cadastro.html"><p>Registrar-se</p></a>
+            <a href="/cadastro"><p>Registrar-se</p></a>
         </button>
     </article>
 </body>

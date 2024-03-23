@@ -72,6 +72,7 @@ class UserController extends Controller
     {
         $user = User::findOrFai($id);
         $user->delete();
+        return redirect()->route('pages.telaDeInicio')->with('success', 'Usuário removido com sucesso!');
     }
 
     public function login(Request $request)

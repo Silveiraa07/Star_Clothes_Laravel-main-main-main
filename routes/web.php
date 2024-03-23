@@ -38,3 +38,7 @@ Route::post('/cadastro', [UserController::class,'store'])->name('store');
 Route::get('/produto/{id}', [UserController::class,'show'])->name('show');
 
 Route::get('/edicao', [UserController::class,'edit'])->name('edit');
+
+Route::get('/update/{id}', [UserController::class, 'update'])->name('update');
+
+Route::get('/user/{id}/delete', [UserController::class, 'destroy'])->name('delete');
